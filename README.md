@@ -7,13 +7,12 @@ This repository contains a simple docker image for ubuntu desktop exposed over w
 * To build this docker container run the following command
 
 ```bash
-docker build -t madhuakula/docker-ubuntu-desktop:latest .
+docker build -t ubuntu-latest-desktop . 
 ```
 
 * To run this docker container run the following command
 
 ```bash
-docker run --rm -it -d -p 8080:8080 madhuakula/docker-ubuntu-desktop:latest
-```
+docker run --rm -it -d -p 8080:8080 ubuntu-latest-desktop
 
 * To access the ubuntu desktop environment over web browser navigate to [http://localhost:8080](http://localhost:8080)
